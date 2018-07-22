@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weekly Countdown</title>
+  <style>
+    body {
+      white-space: nowrap;
+
+    }
+
+    #Countdown {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-family: monospace;
+    }
+
+    h1, h2 {
+      display: inline;
+      margin: 0
+    }
+
+    h1 {
+      font-size: 6em;
+    }
+
+    h2 {
+      font-size: 3em;
+    }
+
+    @media only screen and (max-width: 950px) {
+      h1 {
+          font-size: 5em;
+      }
+
+
+    }
+
+  </style>
+</head>
+<body>
+    <div id="Countdown">
+    	<h1 id="hours"> XX </h1>
+      <h2> h </h2>
+      <h1 id="minutes"> XX </h1>
+      <h2> m </h2>
+      <h1 id="seconds"> XX </h1>
+      <h2> s </h2>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
