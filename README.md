@@ -1,1 +1,3 @@
-# weekly_countdown
+# Weekly Countdown
+
+Time is extremely valuable...
